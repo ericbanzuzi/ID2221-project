@@ -4,6 +4,10 @@
 ## Description
 The project attempts to understand what factors most affect salaries for the position of a data scientist. By scraping job postings from Glassdoor, it looks at key factors such as location, required skills, experience level, and company characteristics that produce the largest variation in salaries. This will provide a good overview of what one can expect from a data scientist given many different job characteristics, while enabling employers to make a more reasoned compensation decision. 
 
+## Requirments
+
+Our project was originally developed to run datasets over HDFS system, thus Hadoop (available at: https://hadoop.apache.org/) should be downloaded and properly setup before running the project file. 
+
 ## Installation
 
 To get started with the project, follow these simple steps:
