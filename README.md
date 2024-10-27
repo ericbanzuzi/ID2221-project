@@ -42,7 +42,11 @@ The whole solution is in the `ds_salary_study.ipynb` notebook.
 The data  comes from Glassdoor through [Kaggle: Jobs Dataset from Glassdoor](https://www.kaggle.com/datasets/thedevastator/jobs-dataset-from-glassdoor). It includes information on job titles, companies, salaries, location, and many other factors related to the role data scientist roles. 
 
 
-## Solution Overview
+## Analysis approach
 
-TBD - some graph?
+1. Collect the data from Kaggle and store it in HDFS to ensure the data is readily available in parallel.
+2. Clean and pre-process the data using PySpark.
+3. Perform exploratory data analysis (EDA) using Spark SQL from PySpark and Python visualization tools to identify key factors influencing data science salaries.
+4. Split the data into training and testing sets, then build and evaluate regression models using Spark MLlib or an appropriate Python library to predict data science job salaries.
+5. Visualize results with Python visualization tools.
 
